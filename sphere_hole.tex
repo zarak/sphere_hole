@@ -1,0 +1,19 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let $R$ denote the radius of the sphere, and $r, H$ be the radius and height of each spherical cap respectively.
+Since the cylindrical hole has length $6$, it follows that $H = R - 3$ and $r=\sqrt{R^2 - 9}$. Then,
+
+\begin{align}
+& \frac{4}{3}\pi R^3 - \left[2 \left(\frac{\pi H}{6}(3r^2 + H^2) \right) + 6\pi (R^2 - 9)  \right] \\
+&=\frac{4}{3}\pi R^3 -\pi\left[ \frac{(R-3)}{3} (3(R^2-9) + {(R - 3)}^2) + 6(R-3)(R+3) \right] \\
+&=\frac{4}{3}\pi R^3 -\frac{\pi}{3}(R-3)\left[ 3(R^2 - 9) + {(R-3)}^2 + 18(R+3) \right] \\
+&=\frac{4}{3}\pi R^3 -\frac{4\pi}{3}(R-3)\left[ R^2 + 3R + 9 \right] \\
+&=\frac{4}{3}\pi R^3 -\frac{4\pi}{3}(R^3-3^3) \\
+&=\frac{4}{3}\pi \left( R^3 - R^3+3^3 \right) \\
+&= 36\pi.
+\end{align}
+
+\end{document}
